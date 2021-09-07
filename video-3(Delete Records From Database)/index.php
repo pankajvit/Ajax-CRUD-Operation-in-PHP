@@ -90,7 +90,7 @@
                     $("#success-message").slideUp();
                 } else {
                     $.ajax({
-                        url: "ajax-insert.php",
+                        url: "../video-2(Insertion through Ajax)/ajax-insert.php",
                         type: "POST",
                         data: {
                             first_name: fname,
